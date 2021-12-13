@@ -1,0 +1,126 @@
+*{
+ margin: 0px;
+ padding: 0px;   
+}
+body{
+    background-color: rgb(119, 161, 128);
+    font-family: 'Playfair Display', serif;;
+}
+.container{
+    max-width: 1400px;
+    background-color: rgb(233, 208, 208);
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+img{
+    max-width: 10%;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+img:hover{
+    border:none;
+}
+.header-bio{
+    float: left;
+    padding:40px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(190, 96, 20);
+}
+.contact{
+    float:right;
+    margin:40px;
+}
+.contact a {
+    text-decoration:none;
+    color: teal;
+    font-weight: bold;
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div-clear{
+    clear:both;
+}
+hr{
+    margin: 20px auto;
+    border: solid black;
+    width:100%;
+    border-top:none;
+}
+
+.left-div{
+    width: 30%;
+    float: left;
+ 
+}
+.right-div{
+    width:70%;
+    float:left;
+    color: rgb(73, 35, 4);
+    font-weight:bold;
+   
+
+}
+.common-hr{
+    border:solid black 1px;
+    border-bottom: none;
+    margin:20 auto;
+}
+.work-experiance{
+    float: left;
+    margin: 30px auto;
+    max-width:30%;
+}
+.right-work{
+    float: right;
+    margin: 30px auto;
+    color: rgb(73, 35, 4);
+    max-width:70%;
+}
+.left-educational-div{
+width: 30%;
+float: left;
+margin: 30px auto;
+
+}
+.right-educational-div{
+    width:30%;
+    float: left;
+    color: rgb(73, 35, 4);
+    margin: 0px 5px;
+}
+.right-educational-div2{
+    
+    color: rgb(73, 35, 4);
+    float: right;
+   
+
+}
+.right-awards{
+    color: rgb(73, 35, 4);
+    
+    float:left;
+    padding-left:20px;
+
+}
+.left-awards{
+    width:30%;
+    float:left;
+}
+.footer{
+    text-align:center;
+    background-color: black;
+    padding:30px;
+}
+.footer a{
+color:white;
+text-decoration:none;
+margin:10px;
+}
+.footer p{
+margin:30px 0 10px 20px
+}
